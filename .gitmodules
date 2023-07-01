@@ -13,4 +13,4 @@
 	url = https://github.com/HJfod/cocos-headers.git
 [submodule "libraries/mat-dash"]
 	path = libraries/mat-dash
-	url = git@github.com:matcool/mat-dash.git
+	url = https://github.com/matcool/mat-dash.git

@@ -35,7 +35,8 @@ namespace subprocess {
         }
 
         void write(const void* const data, size_t size) {
-            WriteFile(m_write.handle, data, size, nullptr, nullptr);
+            DWORD at;
+            WriteFile(m_write.handle, data, size, &at, nullptr);
         }
 
         void close() {

@@ -7,3 +7,4 @@ Release/
 .vscode/
 injector.exe
 src/version.hpp
+run.bat
